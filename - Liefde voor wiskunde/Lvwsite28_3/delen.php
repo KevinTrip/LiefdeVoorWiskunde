@@ -163,7 +163,7 @@ Bij vermeningvuldigen zijn zes verschillende manieren om dit uit te voren.
                                                 <!-- article-content -->
                                     
       <p>
-<p>Het oplossen van deelsommen kun je gemakkelijker maken op twee verschillende manieren.<br>
+<p>Het oplossen van deelsommen kun je gemakkelijker maken op twee verschillende manieren.
 <br>
 <p> Denk bij deelsommen ook aan de tafels, 
 <p> zo kun je in je hoofd de hele tijd zeggen welke hoeveel keer deze tafel maakt het grote getal.
@@ -196,7 +196,7 @@ Bij vermeningvuldigen zijn zes verschillende manieren om dit uit te voren.
 <p> 35000 : 7000 =
 <p> Deze kunnen we verkleinen door:
 <p> 35000(: 1000) : 7000(: 1000) =
-<p> 35 : 7 = 5</ul><br>
+<p> 35 : 7 = 5</ul>
 <br>
 <p> Zodra je gaat delen en achteraan nullen hebt staat,
 <p> kun je hiervan bij ieder getal even veel van deze weghouden.
