@@ -2,9 +2,10 @@
                     <div class="art-footer-inner">
 
                         <div class="art-footer-text">
-                            <p><a class="footer-list" href="#">Contact Us</a> | <a href="#">Terms of Use</a> | <a href="#">Trademarks</a>
+                            <p><a class="footer-list" href="contact.php">Contact Us</a> | <a href="">Terms of Use</a> | <a href="#">Trademarks</a>
                                 | <a class="footer-list" href="#">Privacy Statement</a><br />
-                                Copyright &copy; 2019 ---. All Rights Reserved.</p>
+                                Copyright &copy; <?php $year = getdate();
+								echo $year["year"]; ?> ---. All Rights Reserved.</p>
                         </div>
                     </div>
                     <div class="art-footer-background"></div>
