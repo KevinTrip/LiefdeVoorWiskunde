@@ -82,7 +82,7 @@
                                                 			<span class="r"> </span>
                                                 			<a class="art-button" href="javascript:void(0)">Werk mee!</a>
                                                 		</span>
-                                                	<p>Ontwerp website: C. Hoen, D. Schipper, S. Dik, V. Fokkema, S. Musters
+                                                	<p>Ontwerp website: V. Fokkema, S. Musters, K. Trip
 </p>
 
                                                 <!-- /article-content -->
