@@ -1,3 +1,6 @@
+
+            
+ 			      
 <div class="art-logo">
                         <h1 id="name-text" class="art-logo-name"><a href="#">Liefde voor wiskunde</a></h1>
                         <div id="slogan-text" class="art-logo-text">Verhalen en lesstof voor in de klas</div>
@@ -9,54 +12,55 @@
                 			<a href="index.php" ><span class="r menu-item"></span><span class="t">Home</span></a>
                 		</li>
                 		<li>
-                			<a href="#"><span class="r menu-item"></span><span class="t">Lesmateriaal</span></a>
+                			<a href="lesmateriaal.php"><span class="r menu-item"></span><span class="t">Lesmateriaal</span></a>
                 			<ul>
                 				<li><a href="#">Basis rekenen</a>
 													<ul>
-                						<li><a href="rekenregels.html">Rekenregels</a></li>
-							<li><a href="plusmin.html">Optellen en aftrekken</a></li>
-                						<li><a href="delen.html">Delen en vermenigvuldigen</a></li>
-                						<li><a href="machten.html">Machten en wortels</a></li>
-														<li><a href="procenten.html">Procenten</a></li>
-														<li><a href="verhoudingen.html">Verhoudingen</a></li>
-														<li><a href="breuken.html">Breuken</a></li>
-														<li><a href="demimalen.html">Decimalen</a></li>
-														<li> <a href="afronden.html">Afronden</a></li>
-														<li><a href="grootheden.html">Grootheden</a></li>
+                						<li><a href="rekenregels.php">Rekenregels</a></li>
+							<li><a href="plusmin.php">Optellen en aftrekken</a></li>
+                						<li><a href="delen.php">Delen en vermenigvuldigen</a></li>
+                						<li><a href="machten.php">Machten en wortels</a></li>
+														<li><a href="procenten.php">Procenten</a></li>
+														<li><a href="verhoudingen.php">Verhoudingen</a></li>
+														<li><a href="breuken.php">Breuken</a></li>
+														<li><a href="demimalen.php">Decimalen</a></li>
+														<li> <a href="afronden.php">Afronden</a></li>
+														<li><a href="grootheden.php">Grootheden</a></li>
                 					</ul>
 												</li>
 
 												<li><a href="#">Algebra</a>
                 					<ul>
-                						<li><a href="goniometrie.html">Goniometrie</a>
+                						<li><a href="goniometrie.php">Goniometrie</a>
 															<ul>
-																<li><a href="tangens.html">Tangens</a></li>
-																<li><a href="sinus.html">Sinus</a></li>
-																<li><a href="cosinus.html">Cosinus</a></li>
-																<li><a href="pythagoras.html">Pythagoras</a></li>
-																<li><a href="eenheidscirkel.html">Eenheidscirkel</a></li>
+																<li><a href="tangens.php">Tangens</a></li>
+																<li><a href="sinus.php">Sinus</a></li>
+																<li><a href="cosinus.php">Cosinus</a></li>
+																<li><a href="pythagoras.php">Pythagoras</a></li>
+																<li><a href="eenheidscirkel.php">Eenheidscirkel</a></li>
 															</ul>
 														</li>
-                						<li><a href="complex.html">Complexe getallen</a></li>
+                						<li><a href="complex.php">Complexe getallen</a></li>
                      					</ul>
                 				</li>
 
-                				<li><a href="meetkunde.html">Meetkunde</a></li>
-<li><a href="extra oefeningen.html">Extra oefeningen</a></li>
+                				<li><a href="meetkunde.php">Meetkunde</a></li>
+<li><a href="extra oefeningen.php">Extra oefeningen</a></li>
                 			</ul>
                 		</li>
 									<li>
-                			<a href="#"><span class="r"></span><span class="t menu-item">Digitale lessen</span></a>
+                			<a href="digitalelessen.php"><span class="r"></span><span class="t menu-item">Digitale lessen</span></a>
 												<ul>
-													<li><a href="lesbord.html">Lesbordje</a></li>
-													<li><a href="videoles.html">Videoles</a></li>
+													<li><a href="lesbord.php">Lesbordje</a></li>
+													<li><a href="videoles.php">Videoles</a></li>
 												</ul>
                		</li>
                		<li>
-                			<a href="verhalen.html"><span class="r"></span><span class="t menu-item">Verhalen</span></a>
+                			<a href="verhalen.php"><span class="r"></span><span class="t menu-item">Verhalen</span></a>
                 		</li>
                 		<li>
-                			<a href="contact.html"></span><span class="r"></span><span class="t menu-item">Contact</span></a>
+                			<a href="contact.php"></span><span class="r"></span><span class="t menu-item">Contact</span></a>
                 		</li>
 
                 	</ul>
+					</div>

@@ -28,70 +28,9 @@
             <div class="art-sheet-cr"></div>
             <div class="art-sheet-cc"></div>
             <div class="art-sheet-body">
-            <div class="art-header">
-            <!--<div class="art-header-png"></div>
- 			      <div class="art-header-jpeg"></div>-->
-                    <div class="art-logo">
-                        <h1 id="name-text" class="art-logo-name"><a href="#">Tangens</a></h1>
-                        <div id="slogan-text" class="art-logo-text">Liefde voor wiskunde</div>
-                    </div>
-                </div>
-                      <div class="art-nav">
-                	<ul class="art-menu">
-                		<li>
-                			<a href="index.html" ><span class="r"></span><span class="t">Home</span></a>
-                		</li>
-                		<li>
-                			<a href="lesmateriaal.html"><span class="r"></span><span class="t">Lesmateriaal</span></a>
-                			<ul>
-                				<li><a href="basisrekenen.html">Basis rekenen</a>
-													<ul>
-                						<li><a href="rekenregels.html">Rekenregels</a></li>
-														<li><a href="plusmin.html">Optellen en aftrekken</a></li>
-                						<li><a href="delen.html">Delen en vermenigvuldigen</a></li>
-                						<li><a href="machten.html">Machten en wortels</a></li>
-														<li><a href="procenten.html">Procenten</a></li>
-														<li><a href="verhoudingen.html">Verhoudingen</a></li>
-														<li><a href="breuken.html">Breuken</a></li>
-														<li><a href="decimalen.html">Decimalen</a></li>
-														<li><a href="grootheden.html">Grootheden</a></li>
-                					</ul>
-												</li>
-												
-												<li><a href="algebra.html">Algebra</a>
-                					<ul>
-                						<li><a href="goniometrie.html">Goniometrie</a>
-															<ul>
-																<li><a href="tangens.html">Tangens</a></li>
-																<li><a href="sinus.html">Sinus</a></li>
-																<li><a href="cosinus.html">Cosinus</a></li>
-																<li><a href="pythagoras.html">Pythagoras</a></li>
-																<li><a href="eenheidscirkel.html">Eenheidscirkel</a></li>
-															</ul>
-														</li>
-                						<li><a href="complex.html">Complexe getallen</a></li>
-                     					</ul>
-                				</li>
-												
-                				<li><a href="meetkunde.html">Meetkunde</a></li>
-                			</ul>
-                		</li>		
-									<li>
-                			<a href="digitalelessen.html"><span class="r"></span><span class="t">Digitale lessen</span></a>
-												<ul>
-													<li><a href="lesbord.html">Lesbordje</a></li>
-													<li><a href="videoles.html">Videoles</a></li>
-												</ul>
-               		</li>
-               		<li>
-                			<a href="verhalen.html"><span class="r"></span><span class="t">Verhalen</span></a>
-                		</li>
-                		<li>
-                			<a href="contact.html"></span><span class="r"></span><span class="t">Contact</span></a>
-                		</li>
-
-                	</ul>
-                </div>
+            <?php
+			include("includes/header.php")
+			?>
                 <div class="art-content-layout">
                     <div class="art-content-layout-row">
                         <div class="art-layout-cell art-content">
@@ -100,7 +39,7 @@
                             <div class="art-post-inner art-article">
                                             <div class="art-postmetadataheader">
                                                 <h2 class="art-postheader">
-                                                    Tangens
+                                                    Pythagoras
                                                 </h2>
                                             </div>
                                             <div class="art-postcontent">
@@ -174,22 +113,9 @@
                           </div>
                     </div>
                 </div>
-                <div class="cleared"></div><div class="art-footer">
-                    <div class="art-footer-inner">
-                      
-                        <div class="art-footer-text">
-                            <p><a class="footer-list" href="#">Contact Us</a> | <a href="#">Terms of Use</a> | <a href="#">Trademarks</a>
-                                | <a class="footer-list" href="#">Privacy Statement</a><br />
-                                Copyright &copy; 2019 ---. All Rights Reserved.</p>
-                        </div>
-                    </div>
-                    <div class="art-footer-background"></div>
-                </div>
-        		<div class="cleared"></div>
-            </div>
-        </div>
-        <div class="cleared"></div>
-        <p class="art-page-footer">DBE Atelier 2019</p>
+                <?php
+			include("includes/footer.php")
+			?>
     </div>
     
 </body>

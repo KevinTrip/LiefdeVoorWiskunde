@@ -28,13 +28,12 @@
             <div class="art-sheet-cr"></div>
             <div class="art-sheet-cc"></div>
             <div class="art-sheet-body">
-            <div class="art-header">
-            <!--<div class="art-header-png"></div>
- 			      <div class="art-header-jpeg"></div>-->
+            
+            
+ 			      
                     <?php
 					include("includes/header.php")
 					?>
-                </div>
                 <div class="art-content-layout">
                     <div class="art-content-layout-row">
                         <div class="art-layout-cell art-content">
