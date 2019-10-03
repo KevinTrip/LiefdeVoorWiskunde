@@ -150,8 +150,6 @@ h6 a, h6 a:link, h6 a:visited, h6 a:hover
 {
   background-position: top left;
 }
-
-
 .cleared
 {
   float: none;
@@ -161,13 +159,6 @@ h6 a, h6 a:link, h6 a:visited, h6 a:hover
   border: none;
   font-size: 1px;
 }
-
-form
-{
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
 table.position
 {
   position: relative;
@@ -481,7 +472,9 @@ h1.art-logo-name, h1.art-logo-name a, h1.art-logo-name a:link, h1.art-logo-name 
 
 .art-menu
 {
-  padding: 6px 6px 6px 6px;
+  padding: 7px 7px 7px 7px;
+  border: 0px 0px 10px 0px;
+  margin: 7px 7px 7px 7px;
   background-color: #E3EEF2;
 }
 

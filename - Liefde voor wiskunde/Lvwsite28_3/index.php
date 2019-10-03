@@ -28,95 +28,68 @@
             <div class="art-sheet-cr"></div>
             <div class="art-sheet-cc"></div>
             <div class="art-sheet-body">
-            
-            
- 			      
-                    <?php
+				<?php
 					include("includes/header.php")
-					?>
+				?>
                 <div class="art-content-layout">
                     <div class="art-content-layout-row">
                         <div class="art-layout-cell art-content">
                             <div class="art-post">
                                 <div class="art-post-body">
-                            <div class="art-post-inner art-article">
-                                            <div class="art-postmetadataheader">
-                                                <h2 class="art-postheader">
-                                                    Welkom voor een ieder die geïntereseerd is in Wiskunde
-                                                </h2>
-                                            </div>
-                                            <div class="art-postcontent">
-                                                <!-- article-content -->
-
-
-                                                <p> Sommige zien wiskunde als een vervelend onderwerp op school, maar andere halen hun hele wereld eruit op.
-				    <p>Op deze site kun je verschillende informatie en uitleg over wiskudige onderwerpen vinden die voor iedereen beschikbaar is.
-				    </p>
-                                                
-                                </div>
-                            </div>
-                            <div class="art-post">
-                                <div class="art-post-body">
-                            <div class="art-post-inner art-article">
-                                            <div class="art-postmetadataheader">
-                                                <h2 class="art-postheader">
-                                                   Achtergrond informatie
-                                                </h2>
-                                            </div>
-                                            <div class="art-postcontent">
-                                                <!-- article-content -->
-                                          <p>
-			<p>De informatie te lezen op de site is gemaakt door en voor mensen die werkzaam zijn in of met wiskunde.
-			<p>Dit verschilt tussen spefieke onderwerpen, tot gobale lesinformatie waar je gebruik van kan maken.</p>
-<br>
-<br>
-                                               <p>  Hier wordt niet gezocht naar een methode om de liefde te vangen met wiskunde, zeg maar de wiskunde voor de liefde, maar hier willen we de liefde voor wiskunde bereiken. 
-<p>Hier zijn we op zoek naar de oorsprong.
-<p>Daar waar de leerling geraakt wordt, waar een kiem wordt gezaaid voor nieuwe wiskundigen, nieuwe getallengekken en formulebouwers.</p>
-				<br>
-<br>
-<p> Mocht je zelf een inbreng doen aan de website, dan staan we daar voor open.</p>
-                                                	<p>
-                                                		<span class="art-button-wrapper">
-                                                			<span class="l"> </span>
-                                                			<span class="r"> </span>
-                                                			<a class="art-button" href="javascript:void(0)">Werk mee!</a>
-                                                		</span>
-                                                	<p>Ontwerp website: V. Fokkema, S. Musters, K. Trip
-</p>
-
+									<div class="art-post">
+										<div class="art-post-body">
+											<div class="art-post-inner art-article">
+												<div class="art-postmetadataheader">
+													<h2 class="art-postheader">
+														Welkom voor een ieder die geïntereseerd is in Wiskunde
+													</h2>
+												</div>
+												<div class="art-postcontent">
+													<!-- article-content -->
+													<p> Sommige zien wiskunde als een vervelend onderwerp op school, maar andere halen hun hele wereld eruit op.
+													<p>Op deze site kun je verschillende informatie en uitleg over wiskudige onderwerpen vinden die voor iedereen beschikbaar is.</p>                                              
+												</div>
+												<div class="art-postmetadataheader">
+													<h2 class="art-postheader">
+														Achtergrond informatie
+													</h2>
+												</div>
+												<div class="art-postcontent">
+													<!-- article-content -->
+													<p>De informatie te lezen op de site is gemaakt door en voor mensen die werkzaam zijn in of met wiskunde.</p>
+													<p>Dit verschilt tussen spefieke onderwerpen, tot gobale lesinformatie waar je gebruik van kan maken.</p>
+													<br><br>
+													<p>  Hier wordt niet gezocht naar een methode om de liefde te vangen met wiskunde, zeg maar de wiskunde voor de liefde, maar hier willen we de liefde voor wiskunde bereiken. 
+													<p>Hier zijn we op zoek naar de oorsprong.
+													<p>Daar waar de leerling geraakt wordt, waar een kiem wordt gezaaid voor nieuwe wiskundigen, nieuwe getallengekken en formulebouwers.</p>
+													<br><br>
+													<p> Mocht je zelf een inbreng doen aan de website, dan staan we daar voor open.</p>
+													<span class="art-button-wrapper">
+                                                		<span class="l"> </span>
+                                                		<span class="r"> </span>
+                                                		<a class="art-button" href="javascript:void(0)">Werk mee!</a>
+                                                	</span>
+                                                	<p>Ontwerp website: V. Fokkema, S. Musters, K. Trip</p>
                                                 <!-- /article-content -->
-                                            </div>
-                                            <div class="cleared"></div>
-                            </div>
-
-                            		<div class="cleared"></div>
-                                </div>
+												</div>
+												<div class="cleared"></div>
+											</div>
+										<div class="cleared"></div>
+										</div>
+									</div>
+								</div>
+                                <div class="cleared"></div>
                             </div>
                         </div>
-
-
-
-                                            		<div class="cleared"></div>
-                                                </div>
-                                            </div>
-
-
-
-
-                                            		<div class="cleared"></div>
-                                                </div>
-                                            </div>
-                            		<div class="cleared"></div>
-                                </div>
-                            </div>
-                          </div>
+						<div class="cleared"></div>
                     </div>
                 </div>
-                <?php
-				include("includes/footer.php");
-				?>
+                <div class="cleared"></div>
+            </div>
+        </div>
     </div>
-
+	<?php
+		include("includes/footer.php");
+	?>
 </body>
 </html>
