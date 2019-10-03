@@ -59,11 +59,11 @@
 														<!-- article-content -->
 														<p>De informatie te lezen op de site is gemaakt door en voor mensen die werkzaam zijn in of met wiskunde.</p>
 														<p>Dit verschilt tussen spefieke onderwerpen, tot gobale lesinformatie waar je gebruik van kan maken.</p>
-														<br><br>
+														<br>
 														<p>  Hier wordt niet gezocht naar een methode om de liefde te vangen met wiskunde, zeg maar de wiskunde voor de liefde, maar hier willen we de liefde voor wiskunde bereiken.</p> 
 														<p>Hier zijn we op zoek naar de oorsprong.</p>
 														<p>Daar waar de leerling geraakt wordt, waar een kiem wordt gezaaid voor nieuwe wiskundigen, nieuwe getallengekken en formulebouwers.</p>
-														<br><br>
+														<br>
 														<p> Mocht je zelf een inbreng doen aan de website, dan staan we daar voor open.</p>
 														<span class="art-button-wrapper">
 															<span class="l"> </span>
