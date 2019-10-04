@@ -65,7 +65,7 @@
 														<h2 class="art-postheader">
 															Text, <a href="#" rel="bookmark" title="Permanent Link to this Post">Link</a>, <a class="visited" href="#" rel="bookmark" title="Visited Hyperlink">Visited</a>, <a class="hovered" href="#" rel="bookmark" title="Hovered Hyperlink">Hovered</a>
 														</h2>
-													</div>
+														</div>
 													<div class="art-postcontent">
 														<!-- article-content -->
 														<p>

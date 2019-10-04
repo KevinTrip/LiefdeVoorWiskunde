@@ -47,7 +47,6 @@
 												<div class="art-postcontent">
 													<!-- article-content -->
 													
-													
 													<p> Openingstekst.</p>
 													<p>
 														<span class="art-button-wrapper">
@@ -56,7 +55,6 @@
 															<a class="art-button" href="javascript:void(0)">Read more...</a>
 														</span>
 													</p>
-													
 												</div>
 											</div>
 											<div class="art-post">
@@ -91,22 +89,14 @@
 														</div>
 														<div class="cleared"></div>
 													</div>
-													
 													<div class="cleared"></div>
 												</div>
 											</div>
 										</div>
-										
-										
-										
-										<div class="cleared"></div>
+																																							<div class="cleared"></div>
 									</div>
 								</div>
-								
-								
-								
-								
-								<div class="cleared"></div>
+																																								<div class="cleared"></div>
 							</div>
 						</div>
 						<div class="cleared"></div>
@@ -119,4 +109,4 @@
 			include("includes/footer.php");
 		?>    
 	</body>
-</html>
+</html>																										

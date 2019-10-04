@@ -45,8 +45,7 @@
 											</div>
                                             <div class="art-postcontent">
                                                 <!-- article-content -->
-                                                
-                                                
+												
                                                 <p> Openingstekst.</p>
                                                 <p>
                                                 	<span class="art-button-wrapper">
@@ -90,21 +89,13 @@
 													</div>
 													<div class="cleared"></div>
 												</div>
-												
 												<div class="cleared"></div>
 											</div>
 										</div>
 									</div>
-									
-									
-									
 									<div class="cleared"></div>
 								</div>
 							</div>
-							
-							
-							
-							
 							<div class="cleared"></div>
 						</div>
 					</div>
