@@ -1,3 +1,4 @@
+<div class="art-header">
 <div class="art-logo">
     <h1 id="name-text" class="art-logo-name"><a href="index.php">Liefde voor wiskunde</a></h1>
     <div id="slogan-text" class="art-logo-text">Verhalen en lesstof voor in de klas</div>
@@ -40,7 +41,7 @@
                     </ul>
                 </li>
                 <li><a href="meetkunde.php">Meetkunde</a></li>
-				<li><a href="extra oefeningen.php">Extra oefeningen</a></li>
+				<li><a href="extra_oefeningen.php">Extra oefeningen</a></li>
             </ul>
         </li>
 		<li>

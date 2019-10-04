@@ -28,9 +28,12 @@
             <div class="art-sheet-cr"></div>
             <div class="art-sheet-cc"></div>
             <div class="art-sheet-body">
+            
+ 			      
                     <?php
 				include("includes/header.php");
 				?>
+                
                 <div class="art-content-layout">
                     <div class="art-content-layout-row">
                         <div class="art-layout-cell art-content">
@@ -39,7 +42,7 @@
                             <div class="art-post-inner art-article">
                                             <div class="art-postmetadataheader">
                                                 <h2 class="art-postheader">
-                                                    Eenheidscirkel
+                                                    Extra oefeningen
                                                 </h2>
                                             </div>
                                             <div class="art-postcontent">

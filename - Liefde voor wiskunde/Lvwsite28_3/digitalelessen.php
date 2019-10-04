@@ -28,8 +28,7 @@
             <div class="art-sheet-cr"></div>
             <div class="art-sheet-cc"></div>
             <div class="art-sheet-body">
-            <div class="art-header">
-                <?php
+                    <?php
 				include("includes/header.php");
 				?>
                 <div class="art-content-layout">

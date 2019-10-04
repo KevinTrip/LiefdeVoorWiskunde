@@ -46,8 +46,8 @@
                                                 <!-- article-content -->
                                                 
                                                 
-                                                <p> Om sommen van verschillende moeilijkheden op te kunnen lossen met je gebruik maken van een aantal vormen van rekenen. 
-<p>In sommige gevallen moet je een combinatie hiervan gebruiken.
+                                                <p> Om sommen van verschillende moeilijkheden op te kunnen lossen met je gebruik maken van een aantal vormen van rekenen. </p>
+<p>In sommige gevallen moet je een combinatie hiervan gebruiken.</p>
 <p>Indien dit van belang is, dan is het wel handig om te weten in welke volgorde je zit zal moeten doen.</p>
                                                 <p>
                                                 	
