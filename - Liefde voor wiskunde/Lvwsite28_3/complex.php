@@ -40,7 +40,7 @@
 										<div class="art-post-inner art-article">
                                             <div class="art-postmetadataheader">
                                                 <h2 class="art-postheader">
-                                                    Complex
+                                                    Complexe getallen
 												</h2>
 											</div>
 											<div class="art-postcontent">

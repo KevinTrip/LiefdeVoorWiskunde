@@ -29,84 +29,81 @@
 				<div class="art-sheet-cr"></div>
 				<div class="art-sheet-cc"></div>
 				<div class="art-sheet-body">
-					<div class="art-header">
-						<?php
-							include("includes/header.php");
-						?>
-						<div class="art-content-layout">
-							<div class="art-content-layout-row">
-								<div class="art-layout-cell art-content">
-									<div class="art-post">
-										<div class="art-post-body">
-											<div class="art-post-inner art-article">
-												<div class="art-postmetadataheader">
-													<h2 class="art-postheader">
-														Machten
-													</h2>
-												</div>
-												<div class="art-postcontent">
-													<!-- article-content -->
-													
-													<p> Openingstekst.</p>
-													<p>
-														<span class="art-button-wrapper">
-															<span class="l"> </span>
-															<span class="r"> </span>
-															<a class="art-button" href="javascript:void(0)">Read more...</a>
-														</span>
-													</p>
-												</div>
+					<?php
+						include("includes/header.php");
+					?>
+					<div class="art-content-layout">
+						<div class="art-content-layout-row">
+							<div class="art-layout-cell art-content">
+								<div class="art-post">
+									<div class="art-post-body">
+										<div class="art-post-inner art-article">
+											<div class="art-postmetadataheader">
+												<h2 class="art-postheader">
+													Machten en Wortels
+												</h2>
 											</div>
-											<div class="art-post">
-												<div class="art-post-body">
-													<div class="art-post-inner art-article">
-														<div class="art-postmetadataheader">
-															<h2 class="art-postheader">
-																Text, <a href="#" rel="bookmark" title="Permanent Link to this Post">Link</a>, <a class="visited" href="#" rel="bookmark" title="Visited Hyperlink">Visited</a>, <a class="hovered" href="#" rel="bookmark" title="Hovered Hyperlink">Hovered</a>
-															</h2>
-														</div>
-														<div class="art-postcontent">
-															<!-- article-content -->
-															<p>
-																Wat voor tekst komt hier?
-															</p>
-															<h1>Heading 1</h1>
-															<h2>Heading 2</h2>
-															<h3>Heading 3</h3>
-															<h4>Heading 4</h4>
-															<h5>Heading 5</h5>
-															<h6>Heading 6</h6>
-															
-															<p>
-																<span class="art-button-wrapper">
-																	<span class="l"> </span>
-																	<span class="r"> </span>
-																	<a class="art-button" href="javascript:void(0)">Join&nbsp;Now!</a>
-																</span>
-															</p>
-															
-															<!-- /article-content -->
-														</div>
-														<div class="cleared"></div>
+											<div class="art-postcontent">
+												<!-- article-content -->
+												
+												<p> Openingstekst.</p>
+												<p>
+													<span class="art-button-wrapper">
+														<span class="l"> </span>
+														<span class="r"> </span>
+														<a class="art-button" href="javascript:void(0)">Read more...</a>
+													</span>
+												</p>
+											</div>
+										</div>
+										<div class="art-post">
+											<div class="art-post-body">
+												<div class="art-post-inner art-article">
+													<div class="art-postmetadataheader">
+														<h2 class="art-postheader">
+															Text, <a href="#" rel="bookmark" title="Permanent Link to this Post">Link</a>, <a class="visited" href="#" rel="bookmark" title="Visited Hyperlink">Visited</a>, <a class="hovered" href="#" rel="bookmark" title="Hovered Hyperlink">Hovered</a>
+														</h2>
+													</div>
+													<div class="art-postcontent">
+														<!-- article-content -->
+														<p>
+															Wat voor tekst komt hier?
+														</p>
+														<h1>Heading 1</h1>
+														<h2>Heading 2</h2>
+														<h3>Heading 3</h3>
+														<h4>Heading 4</h4>
+														<h5>Heading 5</h5>
+														<h6>Heading 6</h6>
+														
+														<p>
+															<span class="art-button-wrapper">
+																<span class="l"> </span>
+																<span class="r"> </span>
+																<a class="art-button" href="javascript:void(0)">Join&nbsp;Now!</a>
+															</span>
+														</p>
+														
+														<!-- /article-content -->
 													</div>
 													<div class="cleared"></div>
 												</div>
+												<div class="cleared"></div>
 											</div>
 										</div>
-										<div class="cleared"></div>
 									</div>
+									<div class="cleared"></div>
 								</div>
-								<div class="cleared"></div>
 							</div>
+							<div class="cleared"></div>
 						</div>
-						<div class="cleared"></div>
 					</div>
+					<div class="cleared"></div>
 				</div>
 			</div>
 		</div>
 		<?php
 			include("includes/footer.php");
-		?>
-		
+		?>	
 	</body>
 </html>

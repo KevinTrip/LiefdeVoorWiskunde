@@ -1,14 +1,14 @@
 <div class="art-header">
-<div class="art-logo">
-    <h1 id="name-text" class="art-logo-name"><a href="index.php">Liefde voor wiskunde</a></h1>
-    <div id="slogan-text" class="art-logo-text">Verhalen en lesstof voor in de klas</div>
-</div>
+	<div class="art-logo">
+		<h1 id="name-text" class="art-logo-name"><a href="index.php">Liefde voor wiskunde</a></h1>
+		<div id="slogan-text" class="art-logo-text">Verhalen en lesstof voor in de klas</div>
+	</div>
 </div>
 <div class="art-nav">
    	<ul class="art-menu">
 		<li>
 			<a href="index.php" ><span class="r menu-item"></span><span class="t">Home</span></a>
-        </li>
+		</li>
         <li>
             <a href="lesmateriaal.php"><span class="r menu-item"></span><span class="t">Lesmateriaal</span></a>
 			<ul>
@@ -21,10 +21,10 @@
 						<li><a href="procenten.php">Procenten</a></li>
 						<li><a href="verhoudingen.php">Verhoudingen</a></li>
 						<li><a href="breuken.php">Breuken</a></li>
-						<li><a href="demimalen.php">Decimalen</a></li>
+						<li><a href="decimalen.php">Decimalen</a></li>
 						<li> <a href="afronden.php">Afronden</a></li>
 						<li><a href="grootheden.php">Grootheden</a></li>
-                	</ul>
+					</ul>
 				</li>
 				<li><a href="algebra.php">Algebra</a>
                 	<ul>
@@ -38,24 +38,28 @@
 							</ul>
 						</li>
                 		<li><a href="complex.php">Complexe getallen</a></li>
-                    </ul>
-                </li>
+					</ul>
+				</li>
                 <li><a href="meetkunde.php">Meetkunde</a></li>
-				<li><a href="extra_oefeningen.php">Extra oefeningen</a></li>
-            </ul>
-        </li>
+				<li><a href="extra_oefeningen.php">Extra oefeningen</a>
+					<ul>
+						<li><a href="antwoorden.php">Antwoorden</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
 		<li>
-            <a href="digitalelessen.php"><span class="r"></span><span class="t menu-item">Digitale lessen</span></a>
+			<a href="digitalelessen.php"><span class="r"></span><span class="t menu-item">Digitale lessen</span></a>
 			<ul>
 				<li><a href="lesbord.php">Lesbordje</a></li>
 				<li><a href="videoles.php">Videoles</a></li>
 			</ul>
-        </li>
-        <li>
-            <a href="verhalen.php"><span class="r"></span><span class="t menu-item">Verhalen</span></a>
-        </li>
-        <li>
-            <a href="contact.php"></span><span class="r"></span><span class="t menu-item">Contact</span></a>
-        </li>
-    </ul>
-</div>
+		</li>
+		<li>
+			<a href="verhalen.php"><span class="r"></span><span class="t menu-item">Verhalen</span></a>
+		</li>
+		<li>
+		<a href="contact.php"></span><span class="r"></span><span class="t menu-item">Contact</span></a>
+		</li>
+		</ul>
+		</div>								

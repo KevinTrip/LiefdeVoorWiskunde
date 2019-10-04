@@ -38,9 +38,9 @@
 								<div class="art-post">
 									<div class="art-post-body">
 										<div class="art-post-inner art-article">
-											<div class="art-postmetadataheader">
-												<h2 class="art-postheader">
-													Lesbordje
+                                            <div class="art-postmetadataheader">
+                                                <h2 class="art-postheader">
+                                                    Extra oefeningen
 												</h2>
 											</div>
 											<div class="art-postcontent">
@@ -54,6 +54,7 @@
 														<a class="art-button" href="javascript:void(0)">Read more...</a>
 													</span>
 												</p>
+												
 											</div>
 										</div>
 										<div class="art-post">
@@ -104,6 +105,6 @@
 		</div>
 		<?php
 			include("includes/footer.php");
-		?>	
+		?>
 	</body>
-</html>
+</html>																					
