@@ -959,7 +959,101 @@
 																<p>De verhouding is 4 blauwe ballen op 7 groene ballen.</p>
 																<p>In de automaat zitten 28 blauwe kauwgomballen.</p>
 																<p>Hoeveel kauwgomballen zitten er in totaal in de automaat?</p>
-																<p>De verhouding <span style='color:blue'>blauw<o:p></o:p></span> : <span style='color:green'>groen<o:p></o:p></span> is <span style='color:blue'>4<o:p></o:p></span> : <span style='color:green'>7<o:p></o:p></span></p>
+																<p>De verhouding <span style='color:blue'>blauw<o:p></o:p></span> : <span style='color:green'>groen<o:p></o:p></span> is <span style='color:blue'>4<o:p></o:p></span> : <span style='color:green'>7<o:p></o:p></span>.</p>
+																<p>Het totaal van de verhouding is <span style='color:blue'>4<o:p></o:p></span> + <span style='color:green'>7<o:p></o:p></span> = 11.</p>
+																<p><i>Je rekent het aantal blauwe kauwgomballen om naar 28.</p>
+																<p>Je voert dezelfde bewerking uit op het totaal aantal kauwgomballen.</i></p>
+																<p><table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+																	style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+																	mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+																		<tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+																			<td width=201 valign=top style='width:151.0pt;border:none;border-bottom:solid windowtext 1.0pt;
+																			mso-border-bottom-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+																			</td>
+																			<td width=148 colspan=2 style='width:111.25pt;border:none;border-bottom:solid windowtext 1.0pt;
+																			mso-border-bottom-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'><span
+																				style='color:red'>&gt; x7<o:p></o:p></span></p>
+																			</td>
+																		</tr>
+																		<tr style='mso-yfti-irow:1;height:13.05pt'>
+																			<td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
+																			border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+																			background:#BDD6EE;mso-background-themecolor:accent1;mso-background-themetint:
+																			102;padding:0cm 5.4pt 0cm 5.4pt;height:13.05pt'>
+																				<p class=MsoNormal>Blauwe kauwgomballen</p>
+																			</td>
+																			<td width=73 style='width:54.55pt;border-top:none;border-left:none;
+																			border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+																			mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+																			mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.05pt'>
+																				<p class=MsoNormal align=center style='text-align:center'>4</p>
+																			</td>
+																			<td width=76 style='width:2.0cm;border-top:none;border-left:none;border-bottom:
+																			solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+																			solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+																			solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.05pt'>
+																				<p class=MsoNormal align=center style='text-align:center'>28</p>
+																			</td>
+																		</tr>
+																		<tr style='mso-yfti-irow:2'>
+																			<td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
+																			border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+																			background:#BDD6EE;mso-background-themecolor:accent1;mso-background-themetint:
+																			102;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal>Groene kauwgomballen</p>
+																			</td>
+																			<td width=73 style='width:54.55pt;border-top:none;border-left:none;
+																			border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+																			mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+																			mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'>7</p>
+																			</td>
+																			<td width=76 style='width:2.0cm;border-top:none;border-left:none;border-bottom:
+																			solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+																			solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+																			solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'><span
+																				style='color:#5B9BD5;mso-themecolor:accent1'>49<o:p></o:p></span></p>
+																			</td>
+																		</tr>
+																		<tr style='mso-yfti-irow:3'>
+																			<td width=201 valign=top style='width:151.0pt;border:solid windowtext 1.0pt;
+																			border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+																			background:#BDD6EE;mso-background-themecolor:accent1;mso-background-themetint:
+																			102;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal>Totaal aantal kauwgomballen</p>
+																			</td>
+																			<td width=73 style='width:54.55pt;border-top:none;border-left:none;
+																			border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+																			mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+																			mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'><span
+																				style='color:#5B9BD5;mso-themecolor:accent1'>11<o:p></o:p></span></p>
+																			</td>
+																			<td width=76 style='width:2.0cm;border-top:none;border-left:none;border-bottom:
+																			solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+																			solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+																			solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'><span
+																				style='color:#5B9BD5;mso-themecolor:accent1'>77<o:p></o:p></span></p>
+																			</td>
+																		</tr>
+																		<tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+																			<td width=201 valign=top style='width:151.0pt;border:none;mso-border-top-alt:
+																			solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+																			</td>
+																			<td width=148 colspan=2 style='width:111.25pt;border:none;mso-border-top-alt:
+																			solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'><span
+																				style='color:red'>&gt; x7<o:p></o:p></span></p>
+																			</td>
+																		</tr>
+																	</table>
+																</p>
+																<p>Int totaal zitten er 77 kauwgomballen in de automaat.</p>
 																<p>
 																	<span class="art-button-wrapper">
 																		<span class="l"> </span>
@@ -982,13 +1076,13 @@
 								</div>
 							</div>
 							<div class="cleared"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<?php
-			include("includes/footer.php");
-		?>
-	</body>
-</html>																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
+							</div>
+							</div>
+							</div>
+							</div>
+							</div>
+							<?php
+							include("includes/footer.php");
+							?>
+							</body>
+							</html>																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
