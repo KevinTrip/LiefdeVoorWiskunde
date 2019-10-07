@@ -94,6 +94,19 @@
 														<p><li>1 op de 10 is 36 : 9 = 4 mensen</li></p>
 														<p><li> Het totaal is: 4 x 10 = 40 mensen.</li></p>
 														<p> Er zijn 40 mensen die rijexamen gedaan hebben.</p>
+														<br>
+														<p><u>Voorbeeld:</u></p>
+														<p>Ingrid maakt een houten vloer schoon.</p>
+														<p>Ze mengt hiervoor schoonmaakmiddel met water in de berhouding 1 : 4.</p>
+														<p>Ze maakt 10 liter sop.</p>
+														<p>Hoeveel schoonmaakmiddel en hoeveel water gebruikt Ingrid?</p>
+														<p>Ingrid mengt <span style='color:green'>1<o:p></o:p></span> deel schoonmaakmiddel met <span style='color:blue'>4<o:p></o:p></span> delen water.</p>
+														<p>In totaal mengt ze <span style='color:green'>1<o:p></o:p></span> + <span style='color:blue'>4<o:p></o:p></span> = 5 delen.</p>
+														<p>5 delen zijn 10 liter.</p>
+														<p><span style='color:green'>1<o:p></o:p></span> deel is 10 : 5 = 2 liter</p>
+														<p><span style='color:green'>1<o:p></o:p></span> deel schoonmaakmiddel = 2 liter</p>
+														<p><span style='color:blue'>4<o:p></o:p></span> delen water = <span style='color:blue'>4<o:p></o:p></span> x 2 = 8 liter</p>
+														<p>Ingrid gebruikt 2 liter schoonmaakmiddel en 8 liter water.</p>
 														<p>
 															<span class="art-button-wrapper">
 																<span class="l"> </span>
@@ -801,6 +814,7 @@
 																	</table>
 																</p>
 																<p>250 bioscoopstoelen zijn bezet.</p>
+																<br>
 																<p><u>Voorbeeld:</u></p>
 																<p> 3 op de 10 leerlingen op het Stadscollege kopen hun lunch op school.</p>
 																<p> Dat zij 48 leerlingen.</p>
@@ -1062,6 +1076,135 @@
 																	</span>
 																</p>
 																<!-- /article-content -->
+																
+															</div>
+															<div class="cleared"></div>
+														</div>
+														<div class="cleared"></div>
+													</div>
+												</div>
+												<div class="art-post no-margin">
+													<div class="art-post-body no-padding">
+														<div class="art-post-inner art-article">
+															<div class="art-postmetadataheader">
+																<h2 class="art-postheader">
+																	Vereenvoudigen
+																</h2>
+															</div>
+															<div class="art-postcontent">
+																<!-- article-content -->
+																<p>Je kunt een verhouding vereenvoudigen.</p>
+																<p>Je rekent de getallen in de verhouding om naar zo klein mogelijke gehele getallen.</p>
+																<p><u>Voorbeeld:</u></p>
+																<p>Er doen 7.500 mensen mee aan een hardloopwedstrijd.</p>
+																<p>Daarvan zijn er 5.000 met het ov gekomen.</p>
+																<p>Wat is de verhouding tussen het aantal deelnemers dat met het ov komt en het totaal aantal deelnemers?</p>
+																<p>Vereenvoudig de verhouding zo ver mogelijk.</p>
+																<p><table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
+																	style='border-collapse:collapse;border:none;mso-yfti-tbllook:1184;mso-padding-alt:
+																	0cm 5.4pt 0cm 5.4pt;mso-border-insideh:none;mso-border-insidev:none'>
+																		<tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+																			<td width=94 style='width:70.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'>Ov : totaal =</p>
+																			</td>
+																			<td width=48 valign=top style='width:35.9pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=right style='text-align:right'>5.000</p>
+																			</td>
+																			<td width=28 style='width:20.85pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'>:</p>
+																			</td>
+																			<td width=48 valign=top style='width:35.45pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=right style='text-align:right'>7.500</p>
+																			</td>
+																		</tr>
+																		<tr style='mso-yfti-irow:1'>
+																			<td width=94 style='width:70.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'><span
+																				style='color:#5B9BD5;mso-themecolor:accent1'><o:p>&nbsp;</o:p></span></p>
+																			</td>
+																			<td width=48 valign=top style='width:35.9pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=right style='text-align:right'><span
+																				style='color:#5B9BD5;mso-themecolor:accent1'>: 100<o:p></o:p></span></p>
+																			</td>
+																			<td width=28 style='width:20.85pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'><span
+																				style='color:#5B9BD5;mso-themecolor:accent1'><o:p>&nbsp;</o:p></span></p>
+																			</td>
+																			<td width=48 valign=top style='width:35.45pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=right style='text-align:right'><span
+																				style='color:#5B9BD5;mso-themecolor:accent1'>: 100<o:p></o:p></span></p>
+																			</td>
+																		</tr>
+																		<tr style='mso-yfti-irow:2'>
+																			<td width=94 style='width:70.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+																			</td>
+																			<td width=48 valign=top style='width:35.9pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=right style='text-align:right'>50</p>
+																			</td>
+																			<td width=28 style='width:20.85pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'>:</p>
+																			</td>
+																			<td width=48 valign=top style='width:35.45pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=right style='text-align:right'>75</p>
+																			</td>
+																		</tr>
+																		<tr style='mso-yfti-irow:3'>
+																			<td width=94 style='width:70.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'><span
+																				style='color:#5B9BD5;mso-themecolor:accent1'><o:p>&nbsp;</o:p></span></p>
+																			</td>
+																			<td width=48 valign=top style='width:35.9pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=right style='text-align:right'><span
+																				style='color:#5B9BD5;mso-themecolor:accent1'>: 25<o:p></o:p></span></p>
+																			</td>
+																			<td width=28 style='width:20.85pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'><span
+																				style='color:#5B9BD5;mso-themecolor:accent1'><o:p>&nbsp;</o:p></span></p>
+																			</td>
+																			<td width=48 valign=top style='width:35.45pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=right style='text-align:right'><span
+																				style='color:#5B9BD5;mso-themecolor:accent1'>: 25<o:p></o:p></span></p>
+																			</td>
+																		</tr>
+																		<tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+																			<td width=94 style='width:70.6pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+																			</td>
+																			<td width=48 valign=top style='width:35.9pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=right style='text-align:right'>2</p>
+																			</td>
+																			<td width=28 style='width:20.85pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=center style='text-align:center'>:</p>
+																			</td>
+																			<td width=48 valign=top style='width:35.45pt;padding:0cm 5.4pt 0cm 5.4pt'>
+																				<p class=MsoNormal align=right style='text-align:right'>3</p>
+																			</td>
+																		</tr>
+																	</table>
+																</p>
+																<p>De verhouding tussen het aantal deelnemers dat met het ov komt en het totaal aantal deelnemers is 2 : 3.</p>
+																<br>
+																<p>Je kunt verhoudingen met elkaar vergelijken als &#233;&#233;n getal in beide verhoudingen gelijk is.</p>
+																<p><u>Voorbeeld:</u></p>
+																<p>Bart en Sophie doen een wedstrijd boogschieten.</p>
+																<p>Bart scoort 270 punten uit 30 schoten.</p>
+																<p>Sophie scoort 380 punten uit 40 schoten.</p>
+																<p>Wie schiet naar verhouding het best?</p>
+																<p>Je moet de verhoudingen omrekenen tot het aantal schoten in beide verhoudingen gelijk is <b>of</b> het aantal punten in beide verhoudingen gelijk is.</p>
+																<p>Je kunt bijvoorbeeld uitrekenen hoeveel punten Bart en Sophie gemiddeld met 1 schot haalden.</p>
+																<p>Bart: 270 : 30 = 9 punten per schot.</p>
+																<p>Sophie: 380 : 40 = 9.5 punten per schot.</p>
+																<p>Sophie schiet naar verhouding het best.</p>
+																<p>
+																	<span class="art-button-wrapper">
+																		<span class="l"> </span>
+																		<span class="r"> </span>
+																		<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
+																	</span>
+																</p>
+																<!-- /article-content -->
+																
 															</div>
 															<div class="cleared"></div>
 														</div>
@@ -1076,13 +1219,13 @@
 								</div>
 							</div>
 							<div class="cleared"></div>
-							</div>
-							</div>
-							</div>
-							</div>
-							</div>
-							<?php
-							include("includes/footer.php");
-							?>
-							</body>
-							</html>																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<?php
+			include("includes/footer.php");
+		?>
+	</body>
+</html>																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
