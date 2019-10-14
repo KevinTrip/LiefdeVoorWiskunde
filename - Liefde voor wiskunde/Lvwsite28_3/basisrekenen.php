@@ -45,8 +45,7 @@
 												</h2>
 											</div>
 											<div class="art-postcontent">
-												<!-- article-content -->
-												
+																								
 												<p> Rekenen is opgebouwd in een aantal elementen.</p>
 												<p>Deze elementen kun je opdelen in een aantal losse onderdelen.</p>
 												<p> Deze onderdelen zijn:</p>
@@ -74,12 +73,11 @@
 														</h2>
 													</div>
 													<div class="art-postcontent">
-														<!-- article-content -->
+														
 														<p>Achter alle onderdelen zit een vorm van uitleg die je moet weten, wil je er gebruik van kunnen maken en weten wat je moet doen.</p>
 														<p> Deze uitleg kun je terugvinden onder de kopjes bovenaan de pagina.</p>
 														<p>Hier vind je ook verschillende oefenopgave waarmee je zelfstandig de onderdelen kun oefenen voor extra begrip.</p>
 														
-														<!-- /article-content -->
 													</div>
 													<div class="cleared"></div>
 												</div>

@@ -45,8 +45,7 @@
 												</h2>
 											</div>
                                             <div class="art-postcontent">
-                                                <!-- article-content -->
-												
+                                                
 												<p> Het rekenen met decimale getallen doe je hetzelfde als getallen waar geen decimaal getal weergegeven staat.</p>
 												<p>Hierdoor kun je veel gelijkheden tegen komen met mogelijk eerder gelezen teksten.</p>
 												<br>
@@ -64,7 +63,7 @@
 														</h2>
 													</div>
 													<div class="art-postcontent">
-														<!-- article-content -->
+														
 														<p> Optellen kun je doen op vijf verschillende manieren uitvoeren.</p>
 														<ul>
 															<p><li> Omkeren;</li></p>
@@ -116,13 +115,10 @@
 															<p>12,6 + (2,25 + 17,75) =</p>
 															<p> 12,6 + 20 = 32,6</p>
 														</ul>                                             
-														<p>
-															<span class="art-button-wrapper">
-																<span class="l"> </span>
-																<span class="r"> </span>
-																<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-															</span>
-														</p>
+														<?php
+															include("includes/button_oefening.php");
+														?>
+														
 														<div class="art-post no-margin">
 															<div class="art-post-body no-padding">
 																<div class="art-post-inner art-article">
@@ -132,7 +128,7 @@
 																		</h2>
 																	</div>
 																	<div class="art-postcontent">
-																		<!-- article-content -->
+																		
 																		<p> Ook aftrekken kun je op verschillende manieren uitvoeren om het voor jezelf makkelijker te maken. </p>
 																		<p> Hierbij zijn 3 manieren die je kunt gebruiken.</p>
 																		<br>
@@ -168,13 +164,9 @@
 																			<p> 27,1 - (5,3 + 1,7) =</p>
 																			<p> 27,1 - 7 = 20,1</p>
 																		</ul>
-																		<p>
-																			<span class="art-button-wrapper">
-																				<span class="l"> </span>
-																				<span class="r"> </span>
-																				<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-																			</span>
-																		</p>
+																		<?php
+																			include("includes/button_oefening.php");
+																		?>
 																		
 																		<div class="art-post no-margin">
 																			<div class="art-post-body no-padding">
@@ -185,7 +177,7 @@
 																						</h2>
 																					</div>
 																					<div class="art-postcontent">
-																						<!-- article-content -->
+																						
 																						<p> Het vermenigvuldigen kun je op vijf verschillende manieren doen:</p>
 																						<ul>
 																							<p><li>Omkeren;</li></p>
@@ -235,12 +227,9 @@
 																							<p> 1,6 x 10 = 16</p>
 																						</ul>
 																						
-																						<span class="art-button-wrapper">
-																							<span class="l"> </span>
-																							<span class="r"> </span>
-																							<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-																						</span>
-																						<!-- /article-content -->
+																						<?php
+																							include("includes/button_oefening.php");
+																						?>
 																					</div>
 																					<div class="art-post no-margin">
 																						<div class="art-post-body no-padding">
@@ -251,7 +240,7 @@
 																									</h2>
 																								</div>
 																								<div class="art-postcontent">
-																									<!-- article-content -->
+																									
 																									<p>Het oplossen van deelsommen kun je gemakkelijker maken op twee verschillende manieren.</p>
 																									<br>
 																									<p> Denk bij deelsommen ook aan de tafels, </p>
@@ -282,12 +271,9 @@
 																										<p> 48 : 6 = 8</p>
 																									</ul>
 																									
-																									<span class="art-button-wrapper">
-																										<span class="l"> </span>
-																										<span class="r"> </span>
-																										<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-																									</span>	
-																									<!-- /article-content -->
+																									<?php
+																										include("includes/button_oefening.php");
+																									?>
 																								</div>
 																								<div class="cleared"></div>
 																							</div>
@@ -306,19 +292,19 @@
 															</div>
 														</div>
 													</div>
-												</div>
-											</div>
-											<?php
-												include("includes/footer.php");
-											?>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
-</html>																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
+													</div>
+													</div>
+													<?php
+													include("includes/footer.php");
+													?>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</body>
+													</html>																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			

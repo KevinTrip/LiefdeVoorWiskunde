@@ -52,7 +52,6 @@
 												<p>Welk deel van de dieren is een kat?</p>
 												<p>25&#37; = <sup>25</sup>&frasl;<sub>100</sub> = <sup>1</sup>&frasl;<sub>4</sub></p>
 												<p><sup>1</sup>&frasl;<sub>4</sub> van de dieren is een kat.</p>
-												<br>
 												<p>Je kunt een breuk ook omrekenen naar een percentage. Je rekent de breuk dan eerst om naar honderdsten.</p>
 												<p><u>Voorbeeld:</u></p>
 												<p><i>7 op de 20 leerlingen spelen games op mobiel.</i></p>
@@ -72,7 +71,7 @@
 														</h2>
 													</div>
 													<div class="art-postcontent">
-													<!-- article-content -->
+														<!-- article-content -->
 													<p>
 													Wat voor tekst komt hier?
 													</p>
@@ -113,4 +112,4 @@
 													include("includes/footer.php")
 													?>
 													</body>
-													</html>																										
+													</html>																																							

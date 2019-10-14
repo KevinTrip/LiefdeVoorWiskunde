@@ -47,16 +47,13 @@
 												</h2>
 											</div>
                                             <div class="art-postcontent">
-                                                <!-- article-content -->
-                                                
-                                                
+												
                                                 <p> Een breuk is opgedeeld in twee delen.</p>
 												<p> Deze worden boven elkaar vermeld.</p>
 												<p> Het getal wat boven aan de breuk vermeld wordt, wordt de teller genoemd.</p>
 												<p> Het getal wat onder aan de breuk vermeld wordt, wordt de noemer genoemd.</p>
 												<p> De getallen die voorafstaand aan de breuk worden vermeld zijn de gehele getallen.</p>
 												
-                                                
 											</div>
 										</div>
 										<div class="art-post no-margin">
@@ -68,7 +65,6 @@
 														</h2>
 													</div>
 													<div class="art-postcontent">
-														<!-- article-content -->
 														<p>Een samengestelde breuk bestaat uit gehele getallen en nog een breuk.</p>
 														<p> Dit houd in dat je gehele eenheden hebt, en daarnaast nog een deel van een hele eenheid.</p>
 														<p><u>Voorbeeld:</u></p>
@@ -76,13 +72,9 @@
 														<p> Hierbij is 1 het aantal gehele getallen,</p>
 														<p> is 3 de teller</p>
 														<p> en 4 de noemer.</p>
-														<p>
-															<span class="art-button-wrapper">
-																<span class="l"> </span>
-																<span class="r"> </span>
-																<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-															</span>
-														</p>
+														<?php
+															include("includes/button_oefening.php");
+														?>
 													</div>
 												</div>
 												<div class="art-post no-margin">
@@ -94,18 +86,15 @@
 																</h2>
 															</div>
 															<div class="art-postcontent">
-																<!-- article-content -->
 																<p>Je kunt breuken met verschillende grondgetallen schrijven.</p>
 																<p> Maar toch kunnen deze breuken wel evenveel betekenen.</p>
 																<p><u>Voorbeeld:</u></p>
 																<p><sup>1</sup>&frasl;<sub>3</sub> en <sup>2</sup>&frasl;<sub>6</sub></p>
 																<p> Deze breuken zijn gelijk aan elkaar omdat je de breuk <sup>2</sup>&frasl;<sub>6</sub> kunt delen door 2 zodat ook deze geschreven kan worden als <sup>1</sup>&frasl;<sub>3</sub>.</p>
 																
-																<span class="art-button-wrapper">
-																	<span class="l"> </span>
-																	<span class="r"> </span>
-																	<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-																</span>
+																<?php
+																	include("includes/button_oefening.php");
+																?>
 																
 															</div>
 														</div>
@@ -118,7 +107,6 @@
 																		</h2>
 																	</div>
 																	<div class="art-postcontent">
-																		<!-- article-content -->
 																		<p> Er bestaat een mogelijkheid dat je breuken kleiner kunt maken en hiermee voor het rekenen vereenvoudiger maakt.</p>
 																		<p> Het vinden van een te vereenvoudigbare breuk kun je vinden door zowel de teller als de noemer door hetzelfde getal te delen en hiermee bij de kleinst mogelijke breuk uit te komen.</p>
 																		<p><u> Voorbeeld:</u></p>
@@ -136,14 +124,9 @@
 																		<p> Het laatste deel van deze breuk kan ook nog worden vereenvoudigd door te delen door 2.</p>
 																		<p> Hierdoor wordt het: 1 <sup>1</sup>&frasl;<sub>5</sub></p>
 																		
-																		<p>
-																			<span class="art-button-wrapper">
-																				<span class="l"> </span>
-																				<span class="r"> </span>
-																				<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-																			</span>                                              	
-																		</p>                
-																		<!-- /article-content -->
+																		<?php
+																			include("includes/button_oefening.php");
+																		?>               
 																	</div>
 																	<div class="cleared"></div>
 																</div>
@@ -157,7 +140,6 @@
 																			</h2>
 																		</div>
 																		<div class="art-postcontent">
-																			<!-- article-content -->
 																			
 																			<p> Er bestaan situaties waarbij je met twee breuken met verschillende noemers moet rekenen.</p>
 																			<p> In sommige gevallen is het dan zo dat de ene een meervoud van de ander is waardoor je een breuk moet vermenigvuldigen om ze gelijk te maken.</p>
@@ -176,14 +158,9 @@
 																			<p> Dan krijg je: <sup>8</sup>&frasl;<sub>20</sub></p>
 																			<p> Nu ze weer gelijknamig zijn kun je ermee rekenen.</p>
 																			
-																			<p>
-																				<span class="art-button-wrapper">
-																					<span class="l"> </span>
-																					<span class="r"> </span>
-																					<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-																				</span>                                              	
-																			</p>                
-																			<!-- /article-content -->
+																			<?php
+																				include("includes/button_oefening.php");
+																			?>
 																		</div>
 																		<div class="cleared"></div>
 																	</div>
@@ -197,7 +174,7 @@
 																				</h2>
 																			</div>
 																			<div class="art-postcontent">
-																				<!-- article-content -->
+																				
 																				<p> Als je het hebt over het rekenen met breuken zul je als eerste starten met het optellen en aftrekken, later wordt dit uitgebreid met vermenigvuldigen en delen.</p>
 																				<p> Op het moment dat de breuken gelijknamig zijn kun je gelijk rekenen.</p>
 																				<p> Je rekent dan alleen met de teller, omdat de noemer gelijk zal blijven.</p>
@@ -308,15 +285,11 @@
 																				<p> 3 x 4 = 12</p>
 																				<p> Delen door de teller:</p>
 																				<p> 12 : 1 = 12</p>
-																				<p>
-																					<span class="art-button-wrapper">
-																						<span class="l"> </span>
-																						<span class="r"> </span>
-																						<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-																					</span>                                              	
-																				</p>                
-																				<!-- /article-content -->
+																				<?php
+																					include("includes/button_oefening.php");
+																				?>
 																			</div>
+																			
 																			<div class="cleared"></div>
 																		</div>
 																	</div>
@@ -329,7 +302,7 @@
 																					</h2>
 																				</div>
 																				<div class="art-postcontent">
-																					<!-- article-content -->
+																					
 																					<p>Breuken kun je omrekenen naar een decimaal getal.</p>
 																					<p>Dit kun je doen door de breuk eerst om te rekenen naar een breuk met een noemer 10, 100 of 1000.</p>
 																					<p><u>Voorbeeld:</u></p>
@@ -375,7 +348,6 @@
 																					<p><b>Stap 2</b> Reken uit.</p>
 																					<p> 0,125 + 0,2 = 0,325</p>
 																					<p> Timon en Jelle hebben samen 0,325 liter koffie gedronken.</p>
-																					<br>
 																					<?php
 																						include("includes/button_oefening.php");
 																					?>

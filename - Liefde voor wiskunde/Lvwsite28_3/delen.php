@@ -45,8 +45,7 @@
 												</h2>
 											</div>
                                             <div class="art-postcontent">
-                                                <!-- article-content -->
-                                                
+												
 												<p> Met delen en vermenigvuldigen krijg je kennis over een snellere manier van groepjes maken en  vergrotingen uitvoeren.</p>
 												<br>
 												<p>Om het in het begin van het leren het begrip makkelijker te maken, kun je gebruik maken van voorwerpen om de groepjes te maken.</p>
@@ -65,7 +64,7 @@
 														</h2>
 													</div>
 													<div class="art-postcontent">
-														<!-- article-content -->
+														
 														<p>Bij vermeningvuldigen zijn zes verschillende manieren om dit uit te voren.</p>
 														<ul>
 															<p><li>Omkeren;</li></p>
@@ -143,13 +142,9 @@
 															<p> 25<u>0</u> x 8<u>00</u> = 200<u>000</u></p>
 														</ul>
 														
-														<p>
-															<span class="art-button-wrapper">
-																<span class="l"> </span>
-																<span class="r"> </span>
-																<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-															</span>
-														</p>
+														<?php
+															include("includes/button_oefening.php");
+														?>
 													</div>
 												</div>
 												<div class="art-post no-margin">
@@ -161,7 +156,6 @@
 																</h2>
 															</div>
 															<div class="art-postcontent">
-																<!-- article-content -->
 																
 																<p>Het oplossen van deelsommen kun je gemakkelijker maken op twee verschillende manieren.</p>
 																<br>
@@ -210,15 +204,9 @@
 																	<p> 360 : 9 = 40</p>
 																</ul>
 																
-																<p>
-																	<span class="art-button-wrapper">
-																		<span class="l"> </span>
-																		<span class="r"> </span>
-																		<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-																	</span>
-																</p>
-																
-																<!-- /article-content -->
+																<?php
+																	include("includes/button_oefening.php");
+																?>
 															</div>
 															<div class="cleared"></div>
 														</div>

@@ -44,7 +44,6 @@
 												</h2>
 											</div>
 											<div class="art-postcontent">
-                                                <!-- article-content -->
 												
                                                 <p> Om sommen van verschillende moeilijkheden op te kunnen lossen met je gebruik maken van een aantal vormen van rekenen. </p>
 												<p>In sommige gevallen moet je een combinatie hiervan gebruiken.</p>
@@ -62,7 +61,7 @@
 												</div>
 											</div>
 											<div class="art-postcontent">
-												<!-- article-content -->
+												
 												<p>De rekenvolgorde is de volgorde waarin je stap voor stap een som kunt uitrekenen. </p>
 												<p>Het is wel van belang dat je deze stappen in de juiste volgorde doet, want anders krijg je een hele andere uitkomst dan de bedoeling is.</p>
 												<p>De volgorde waarin je moet rekenen is:</p>
@@ -111,13 +110,9 @@
 												<br>
 												<p><b>PAS OP!!!</b></p>
 												<p> Wanneer je een som invoert in een rekenmachine moet je opletten of deze de juiste rekenregels uitvoerd.</p>
-												<p>
-													<span class="art-button-wrapper">
-														<span class="l"> </span>
-														<span class="r"> </span>
-														<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-													</span>
-												</p>
+												<?php
+													include("includes/button_oefening.php");
+												?>
 											</div>
 											<div class="art-post no-margin">
 												<div class="art-post-body no-padding">
@@ -129,7 +124,7 @@
 														</div>
 													</div>
 													<div class="art-postcontent">
-														<!-- article-content -->
+														
 														<p> Als we het hebben over schattend rekenen, dan houd dit in dat je het ongeveer zal uitrekenen.</p>
 														<p> Je schat de uitkomst van een opgave als je het antwoord niet precies hoeft te weten.</p>
 														<p> Als je een uitkomst schat, gebruik je het &asymp;-teken.</p>
@@ -139,14 +134,9 @@
 														<p>Hoeveel moet Sherida ongeveer afrekenen?</p>
 														<p> &#8364;49,95 + &#8364;229,50 &asymp; &#8364;50 + &#8364;230 = &#8364;280</p>
 														<p>Sherida moet ongeveer &#8364;280 afrekenen.</p>
-														<p> 
-															<span class="art-button-wrapper">
-																<span class="l"> </span>
-																<span class="r"> </span>
-																<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-															</span>
-														</p>
-														<!-- /article-content -->
+														<?php
+															include("includes/button_oefening.php");
+														?>
 													</div>
 													<div class="cleared"></div>
 												</div>
@@ -207,14 +197,9 @@
 																<p>Je toetst in:  193 x 8 = 1544</p>
 																<p> In de 193 doosjes zitten 1544 pennen.</p>
 																<p>Je houdt dus 1.550 - 1.544 = 6 pennen over.</p>
-																<p>
-																	<span class="art-button-wrapper">
-																		<span class="l"> </span>
-																		<span class="r"> </span>
-																		<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-																	</span>
-																</p>
-																<!-- /article-content -->
+																<?php
+																	include("includes/button_oefening.php");
+																?>
 															</div>
 															<div class="cleared"></div>
 														</div>
@@ -237,13 +222,9 @@
 																		<p>Je toetst in: 192 x 319 = 61.248 miljoen</p>
 																		<p> 61.248 miljoen = 61.248.000.000</p>
 																		<p> Dus deze verkoop levert $61.248.000.000 op.</p>
-																		<p>
-																			<span class="art-button-wrapper">
-																				<span class="l"> </span>
-																				<span class="r"> </span>
-																				<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-																			</span>
-																		</p>
+																		<?php
+																			include("includes/button_oefening.php");
+																		?>
 																		<!-- article-content --> 
 																		<div class="cleared"></div>
 																	</div>
@@ -263,8 +244,8 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</body>
-</html>																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	
+					</div>
+					</div>
+					</div>
+					</body>
+					</html>																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						

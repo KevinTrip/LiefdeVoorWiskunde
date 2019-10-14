@@ -44,7 +44,6 @@
 												</h2>
 											</div>
                                             <div class="art-postcontent">
-                                                <!-- article-content -->
 												
                                                 <p> Rekenen begint bij de basis.</p>
 												<p> Bij de basis van rekenen zul je beginnen met het maken van optel en aftrek sommen. </p>
@@ -67,7 +66,6 @@
 														</h2>
 													</div>
 													<div class="art-postcontent">
-														<!-- article-content -->
 														
 														<p> Optellen kun je doen op vijf verschillende manieren uitvoeren.</p>
 														<ul>
@@ -123,13 +121,9 @@
 															<p> 31 + ( 27 + 13 ) =</p>
 															<p> 31 + 40 = 71</p>
 														</ul>
-														<p>
-															<span class="art-button-wrapper">
-																<span class="l"> </span>
-																<span class="r"> </span>
-																<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-															</span>
-														</p>
+														<?php
+															include("includes/button_oefening.php");
+														?>
 														<div class="art-post No-margin">
 															<div class="art-post-body no-padding">
 																<div class="art-post-inner art-article">
@@ -139,7 +133,6 @@
 																		</h2>
 																	</div>
 																	<div class="art-postcontent">
-																		<!-- article-content -->
 																		
 																		<p> Ook aftrekken kun je op verschillende manieren uitvoeren om het voor jezelf makkelijker te maken. </p>
 																		<p> Hierbij zijn 3 manieren die je kunt gebruiken.</p>
@@ -183,13 +176,9 @@
 																			<p> ( 67 - 17 ) - 9 =</p>
 																			<p> 50 - 9 = 41</p>
 																		</ul>
-																		<p>
-																			<span class="art-button-wrapper">
-																				<span class="l"> </span>
-																				<span class="r"> </span>
-																				<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-																			</span>
-																		</p>
+																		<?php
+																			include("includes/button_oefening.php");
+																		?>
 																		<div class="art-post no-margin">
 																			<div class="art-post-body no-padding">
 																				<div class="art-post-inner art-article">
@@ -199,7 +188,6 @@
 																						</h2>
 																					</div>
 																					<div class="art-postcontent">
-																						<!-- article-content -->
 																						
 																						<p> Op het moment dat je zal gaan rekenen met negatieve getallen is het van belang dat je goed oplet wat je moet doen.</p>
 																						<br>
@@ -217,15 +205,9 @@
 																						<p><u> Voorbeeld:</u></p>
 																						<p> 600 - 800 = -200</p>
 																						
-																						<p>
-																							<span class="art-button-wrapper">
-																								<span class="l"> </span>
-																								<span class="r"> </span>
-																								<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-																							</span>
-																						</p>	
-																						
-																						<!-- /article-content -->
+																						<?php
+																							include("includes/button_oefening.php");
+																						?>
 																					</div>
 																					<div class="cleared"></div>
 																				</div>
@@ -244,15 +226,15 @@
 											</div>
 										</div>
 									</div>
-								</div>
-								<?php
+									</div>
+									<?php
 									include("includes/footer.php")
-								?>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
-</html>																																																																																																																																																																																																																											
+									?>
+									</div>
+									</div>
+									</div>
+									</div>
+									</div>
+									</div>
+									</body>
+									</html>																																																																																																																																																																																																																																				

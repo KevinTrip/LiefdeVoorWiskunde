@@ -2,17 +2,17 @@
 <html>
 	<head>
 		<!--
-
-		Base template (without user's data) checked by http://validator.w3.org : "This page is valid XHTML 1.0 Transitional"
+			
+			Base template (without user's data) checked by http://validator.w3.org : "This page is valid XHTML 1.0 Transitional"
 		-->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 		<title></title>
-
+		
 		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 		<!--[if IE 6]><link rel="stylesheet" href="style.ie6.css" type="text/css" media="screen" /><![endif]-->
 		<!--[if IE 7]><link rel="stylesheet" href="style.ie7.css" type="text/css" media="screen" /><![endif]-->
-
+		
 		<script type="text/javascript" src="script.js"></script>
 	</head>
 	<body>
@@ -65,32 +65,34 @@
 														<p>Daar waar de leerling geraakt wordt, waar een kiem wordt gezaaid voor nieuwe wiskundigen, nieuwe getallengekken en formulebouwers.</p>
 														<br>
 														<p> Mocht je zelf een inbreng doen aan de website, dan staan we daar voor open.</p>
-														<span class="art-button-wrapper">
-															<span class="l"> </span>
-															<span class="r"> </span>
-															<a class="art-button" href="javascript:void(0)">Werk mee!</a>
-														</span>
+														<p>
+															<span class="art-button-wrapper">
+																<span class="l"> </span>
+																<span class="r"> </span>
+																<a class="art-button" href="contact.php">Werk mee!</a>
+															</span>
+														</p>
 														<p>Ontwerp website: V. Fokkema, S. Musters, K. Trip</p>
-													<!-- /article-content -->
+														<!-- /article-content -->
 													</div>
 													<div class="cleared"></div>
 												</div>
-											<div class="cleared"></div>
+												<div class="cleared"></div>
 											</div>
 										</div>
 									</div>
 									<div class="cleared"></div>
+									</div>
 								</div>
-							</div>
-							<div class="cleared"></div>
+								<div class="cleared"></div>
 						</div>
 					</div>
 					<div class="cleared"></div>
-				</div>
-			</div>
-		</div>
-		<?php
-			include("includes/footer.php");
-		?>
-	</body>
-</html>
+					</div>
+														</div>
+														</div>
+														<?php
+														include("includes/footer.php");
+														?>
+														</body>
+														</html>														
