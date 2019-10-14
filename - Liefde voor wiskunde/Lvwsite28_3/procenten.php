@@ -71,6 +71,28 @@
 												<div class="art-post-inner art-article">
 													<div class="art-postmetadataheader">
 														<h2 class="art-postheader">
+															-
+														</h2>
+													</div>
+													<div class="art-postcontent">
+														<p>-
+														
+														<?php
+															include("includes/button_oefening.php");
+														?>
+														
+														<!-- /article-content -->
+													</div>
+													<div class="cleared"></div>
+												</div>
+												<div class="cleared"></div>
+											</div>
+										</div>
+										<div class="art-post no-margin">
+											<div class="art-post-body no-padding">
+												<div class="art-post-inner art-article">
+													<div class="art-postmetadataheader">
+														<h2 class="art-postheader">
 															Verband tussen procenten en breuken
 														</h2>
 													</div>
