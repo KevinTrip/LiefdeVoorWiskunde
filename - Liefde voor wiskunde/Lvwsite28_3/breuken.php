@@ -351,22 +351,48 @@
 																					<?php
 																						include("includes/button_oefening.php");
 																					?>
-																					<!-- /article-content -->
+																					<div class="art-post no-margin">
+																						<div class="art-post-body no-padding">
+																							<div class="art-post-inner art-article">
+																								<div class="art-postmetadataheader">
+																									<h2 class="art-postheader">
+																										Verband tussen breuken en procenten
+																									</h2>
+																								</div>
+																								<div class="art-postcontent">
+																									<p>Het is mogelijk om breuken te schrijven als een percentage.</p>
+																									<br>
+																									<p>100&#37; = 1</p>
+																									<p>50&#37; = 0,5 = <sup>1</sup>&frasl;<sub>2</sub> = 1 : 2</p>
+																									<p>25&#37; = 0,25 = <sup>1</sup>&frasl;<sub>4</sub> = 1 : 4</p>
+																									<p>20&#37; = 0,2 = <sup>1</sup>&frasl;<sub>5</sub> = 1 : 5</p>
+																									<p>12,5&#37; = 0,125 = <sup>1</sup>&frasl;<sub>8</sub> = 1 : 8</p>
+																									<p>10&#37; = 0,1 = <sup>1</sup>&frasl;<sub>10</sub> = 1 : 10</p>
+																									<p>5&#37; = 0,05 = <sup>1</sup>&frasl;<sub>20</sub> = 1 : 20</p>
+																									<p>1&#37; = 0.01 = <sup>1</sup>&frasl;<sub>100</sub> = 1 : 100</p>
+																									
+																									<p>
+																										<span class="art-button-wrapper">
+																											<span class="l"> </span>
+																											<span class="r"> </span>
+																											<a class="art-button" href="javascript:void(0)">Join&nbsp;Now!</a>
+																										</span>
+																									</p>
+																								</div>
+																								<div class="cleared"></div>
+																							</div>
+																							<div class="cleared"></div>
+																						</div>
+																					</div>
 																				</div>
 																				<div class="cleared"></div>
 																			</div>
-																			<div class="cleared"></div>
 																		</div>
+																		<div class="cleared"></div>
 																	</div>
 																</div>
 																<div class="cleared"></div>
 															</div>
-														</div>
-														<div class="cleared"></div>
-													</div>
-												</div>
-												<div class="cleared"></div>
-											</div>
 										</div>
 									</div>
 								</div>
