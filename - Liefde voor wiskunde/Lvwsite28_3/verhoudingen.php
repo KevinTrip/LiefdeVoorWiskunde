@@ -49,7 +49,22 @@
 												
                                                 <p>Een verhouding geeft een verband aan tussen twee of meer getallen.</p>
 												<p>Je kunt een verhouding gebruiken om een prijs, een aantal of een hoeveelheid uit te rekenen. </p>
-												<p> Er zijn een aantal manier waarop je een verhouding voor jezelf duidelijk kan maken.</p>
+												<p>Er zijn een aantal manier waarop je een verhouding voor jezelf duidelijk kan maken.</p>
+												<p>Het is de bedoeling dat je zelf kunt afleiding van welke manier je gebruik moet maken.</p>
+												<br>
+												<p><u>Voorbeeld:</u></p>
+												<p>Robin gaat een weekendje weg. Ze heeft een aanbieding gevonden voor een hotel:</p>
+												<p>3 nachten voor de prijs van 2!<p>
+												<p><i>(Een nacht gratis ter waarde van &#8364;43,50)</i></p>
+												<p>Robin moet een derde van het bedrag direct betalen.</p>
+												<p>Hoeveel moet ze direcht betalen?</p>
+												<p>Je moet <sup>1</sup>&frasl;<sub>3</sub> van het totaalbedrag berekenen, maar je weet niet wat het totaal bedrag is.</p>
+												<p>Je rekent daarom eerst het totaalbedrag.</p>
+												<p>De aanbieding is '3 nachten voor de prijs van 2'.</p>
+												<p>E&#233;n nacht heeft een waaarde van &#8364;43,50.</p>
+												<p>Ze moet in toaal voor twee nachten betalen: 2 x &#8364;43.50 = &#8364;87.</p>
+												<p><sup>1</sup>&frasl;<sub>3</sub> van het totaal = <sup>1</sup>&frasl;<sub>3</sub> x &#8364;87 = &#8364;29</p>
+												<p>Robin moet &#8364;29 direct betalen.</p>
 											</div>
 										</div>
 										<div class="art-post no-margin">
