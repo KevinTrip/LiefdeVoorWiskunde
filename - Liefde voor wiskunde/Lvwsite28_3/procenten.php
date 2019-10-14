@@ -56,14 +56,11 @@
 												<p>Je kunt een breuk ook omrekenen naar een percentage. Je rekent de breuk dan eerst om naar honderdsten.</p>
 												<p><u>Voorbeeld:</u></p>
 												<p><i>7 op de 20 leerlingen spelen games op mobiel.</i></p>
-                                                <p>
-                                                	<span class="art-button-wrapper">
-                                                		<span class="l"> </span>
-                                                		<span class="r"> </span>
-                                                		<a class="art-button" href="javascript:void(0)">Read more...</a>
-													</span>
-												</p>
-                                                
+												<p>Hoeveel procent van de leerlingen speelt games op zijn mobiel?</p>
+												
+												<?php
+													include("includes/button_oefening.php");
+												?>
 											</div>
 										</div>
 										<div class="art-post no-margin">
@@ -75,45 +72,45 @@
 														</h2>
 													</div>
 													<div class="art-postcontent">
-														<!-- article-content -->
-														<p>
-															Wat voor tekst komt hier?
-														</p>
-														<h1>Heading 1</h1>
-														<h2>Heading 2</h2>
-														<h3>Heading 3</h3>
-														<h4>Heading 4</h4>
-														<h5>Heading 5</h5>
-														<h6>Heading 6</h6>
-														
-														<p>
-															<span class="art-button-wrapper">
-																<span class="l"> </span>
-																<span class="r"> </span>
-																<a class="art-button" href="javascript:void(0)">Join&nbsp;Now!</a>
-															</span>
-														</p>
-														
-														<!-- /article-content -->
+													<!-- article-content -->
+													<p>
+													Wat voor tekst komt hier?
+													</p>
+													<h1>Heading 1</h1>
+													<h2>Heading 2</h2>
+													<h3>Heading 3</h3>
+													<h4>Heading 4</h4>
+													<h5>Heading 5</h5>
+													<h6>Heading 6</h6>
+													
+													<p>
+													<span class="art-button-wrapper">
+													<span class="l"> </span>
+													<span class="r"> </span>
+													<a class="art-button" href="javascript:void(0)">Join&nbsp;Now!</a>
+													</span>
+													</p>
+													
+													<!-- /article-content -->
 													</div>
 													<div class="cleared"></div>
-												</div>
-												<div class="cleared"></div>
-											</div>
-										</div>
-									</div>
-									<div class="cleared"></div>
-								</div>
-							</div>
-							<div class="cleared"></div>
-						</div>
-					</div>
-					<div class="cleared"></div>
-				</div>
-			</div>
-		</div>
-		<?php
-			include("includes/footer.php")
-		?>
-	</body>
-</html>
+													</div>
+													<div class="cleared"></div>
+													</div>
+													</div>
+													</div>
+													<div class="cleared"></div>
+													</div>
+													</div>
+													<div class="cleared"></div>
+													</div>
+													</div>
+													<div class="cleared"></div>
+													</div>
+													</div>
+													</div>
+													<?php
+													include("includes/footer.php")
+													?>
+													</body>
+													</html>																										
