@@ -376,13 +376,9 @@
 																					<p> 0,125 + 0,2 = 0,325</p>
 																					<p> Timon en Jelle hebben samen 0,325 liter koffie gedronken.</p>
 																					<br>
-																					<p>
-																						<span class="art-button-wrapper">
-																							<span class="l"> </span>
-																							<span class="r"> </span>
-																							<a class="art-button" href="javascript:void(0)">Extra oefeningen</a>
-																						</span>                                              	
-																					</p>                
+																					<?php
+																						include("includes/button_oefening.php");
+																					?>
 																					<!-- /article-content -->
 																				</div>
 																				<div class="cleared"></div>
