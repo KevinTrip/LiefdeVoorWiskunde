@@ -226,15 +226,15 @@
 											</div>
 										</div>
 									</div>
-									</div>
-									<?php
+								</div>
+								<?php
 									include("includes/footer.php")
-									?>
-									</div>
-									</div>
-									</div>
-									</div>
-									</div>
-									</div>
-									</body>
-									</html>																																																																																																																																																																																																																																				
+								?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>																																																																																																																																																																																																																																				
