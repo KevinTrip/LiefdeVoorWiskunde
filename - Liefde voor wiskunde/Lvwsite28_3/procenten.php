@@ -46,7 +46,16 @@
                                             <div class="art-postcontent">
                                                 <!-- article-content -->
                                                 
-												<p> Openingstekst.</p>
+												<p>Een <span style='color:blue'>procent<o:p></o:p></span> (<span style='color:blue'>&#37;<o:p></o:p></span>) is &#233;&#233;n honderste deel. 100&#37; is het totaal. Een <span style='color:blue'>percentage<o:p></o:p></span> geeft een aantal procenten aan. Je kun een percentage omrekenen naar een breuk.</p>
+												<p><u>Voorbeeld:</u></p>
+												<p>In een asiel is 25&#37; van de dieren een kat.</p>
+												<p>Welk deel van de dieren is een kat?</p>
+												<p>25&#37; = <sup>25</sup>&frasl;<sub>100</sub> = <sup>1</sup>&frasl;<sub>4</sub></p>
+												<p><sup>1</sup>&frasl;<sub>4</sub> van de dieren is een kat.</p>
+												<br>
+												<p>Je kunt een breuk ook omrekenen naar een percentage. Je rekent de breuk dan eerst om naar honderdsten.</p>
+												<p><u>Voorbeeld:</u></p>
+												<p><i>7 op de 20 leerlingen spelen games op mobiel.</i></p>
                                                 <p>
                                                 	<span class="art-button-wrapper">
                                                 		<span class="l"> </span>
@@ -57,8 +66,8 @@
                                                 
 											</div>
 										</div>
-										<div class="art-post">
-											<div class="art-post-body">
+										<div class="art-post no-margin">
+											<div class="art-post-body no-padding">
 												<div class="art-post-inner art-article">
 													<div class="art-postmetadataheader">
 														<h2 class="art-postheader">
