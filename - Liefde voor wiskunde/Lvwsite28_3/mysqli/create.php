@@ -1,4 +1,6 @@
 <?php
+	
+	echo "Ik ben geconnect goed he";
 	$sqlUser = "CREATE TABLE `USER` (
 	userID INT(6) AUTO_INCREMENT,
 	teacherID INT(6) NOT NULL,
@@ -41,19 +43,19 @@
 	FOREIGN KEY (teacherID) REFERENCES TEACHER(teacherID)
 	)"
 	
-	$sqlGrades = "CREATE TABLE `GRADES` (
+	$sqlgrade = "CREATE TABLE `GRADE` (
 	exerciseID INT(6) NOT NULL,
 	userID INT(6)  NOT NULL,
 	classID INT(6) NOT NULL,
 	topic VARCHAR(255) NOT NULL,
 	grade DOUBLE NOT NULL,
 	PRIMARY KEY (exerciseID),
-	FOREIGN KEY (exerciseID) REFERENCES EXERCISE(exerciseID)
+	FOREIGN KEY (exerciseID) REFERENCES EXERCISE(exerciseID),
 	FOREIGN KEY (userID) REFERENCES USER(userID),
 	FOREIGN KEY (classID) REFERENCES CLASS(classID)
 	)"
 	
-	$sqlExercises = "CREATE TABLE `exercise` (
+	$sqlExercise = "CREATE TABLE `exercise` (
 	exerciseID INT(6) NOT NULL,
 	topic VARCHAR(255) NOT NULL,
 	PRIMARY KEY (exerciseID)
@@ -63,9 +65,50 @@
 	userID INT(6) NOT NULL,
 	topic VARCHAR(255) NOT NULL,
 	average DOUBLE NOT NULL,
-	FOREIGN KEY (userID) REFERENCES USER(userID)
+	FOREIGN KEY (userID) REFERENCES USER(userID),
 	PRIMARY KEY (userID, topic)
 	)"
 	
+	$servername = "localhost";
+	$password = "";
+	$username = "root";
+	
+	$connect = mysqli_connect($servername, $username, $password);
+	if($connect === false) {
+		echo "Er is iets misgegaan. Sorry voor het ongemak!";
+	}
+	else {
+		if(mysqli_query($connect, $sqlSchool) === false) {
+			echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+		}
+		else {
+			if(mysqli_query($connect, $sqlExercise) === false) {
+				echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+			}
+			else {
+				if(mysqli_query($connect, $sqlTeacher) === false) {
+					echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+				}
+				else {
+					if(mysqli_query($connect, $sqlClass) === false) {
+						echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+					}
+					else {
+						if(mysqli_query($connect, $sqlUser) === false) {
+							echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+						}
+						else {
+							if(mysqli_query($connect, $sqlExercise) === false) {
+								echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+							}
+							else {
+								echo "Alle tabellen gemaakt! Toppper ben ik he";
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 ?>
 	
