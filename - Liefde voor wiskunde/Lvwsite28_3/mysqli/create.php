@@ -1,5 +1,71 @@
 <?php
-	$sql = "CREATE DATABASE LiefdeVoorWiskunde
-			"
+	$sqlUser = "CREATE TABLE `USER` (
+	userID INT(6) AUTO_INCREMENT,
+	teacherID INT(6) NOT NULL,
+	classID INT(6) NOT NULL,
+	username VARCHAR(50) NOT NULL UNIQUE,
+	password VARCHAR(50) NOT NULL,
+	email VARCHAR(255) NOT NULL UNIQUE,
+	firstName VARCHAR(255) NOT NULL,
+	lastName VARCHAR(255) NOT NULL,
+	PRIMARY KEY (userID),
+	FOREIGN KEY (teacherID) REFERENCES TEACHER(teacherID),
+	FOREIGN KEY (classID) REFERENCES CLASS(classID)
+	)";
+	
+	$sqlTeacher = "CREATE TABLE `TEACHER` (
+	teacherID INT(6) AUTO_INCREMENT,
+	schoolID INT(6) NOT NULL,
+	username VARCHAR(50) NOT NULL UNIQUE,
+	password VARCHAR(50) NOT NULL,
+	email VARCHAR(255) NOT NULL UNIQUE,
+	firstName VARCHAR(255) NOT NULL,
+	lastName VARCHAR(255) NOT NULL,
+	PRIMARY KEY (teacherID),
+	FOREIGN KEY (schoolID) REFERENCES SCHOOL(schoolID)
+	)";
+	
+	$sqlSchool = "CREATE TABLE `SCHOOL` (
+	schoolID INT(6) AUTO_INCREMENT,
+	name VARCHAR(255) NOT NULL,
+	PRIMARY KEY (schoolID)
+	)"
+	
+	$sqlClass = "CREATE TABLE `CLASS` (
+	classID INT(6)  AUTO_INCREMENT,
+	schoolID INT(6) NOT NULL,
+	teacherID INT(6) NOT NULL,
+	name VARCHAR(255) NOT NULL,
+	PRIMARY KEY (classID),
+	FOREIGN KEY (schoolID) REFERENCES SCHOOL(schoolID),
+	FOREIGN KEY (teacherID) REFERENCES TEACHER(teacherID)
+	)"
+	
+	$sqlGrades = "CREATE TABLE `GRADES` (
+	exerciseID INT(6) NOT NULL,
+	userID INT(6)  NOT NULL,
+	classID INT(6) NOT NULL,
+	topic VARCHAR(255) NOT NULL,
+	grade DOUBLE NOT NULL,
+	PRIMARY KEY (exerciseID),
+	FOREIGN KEY (exerciseID) REFERENCES EXERCISE(exerciseID)
+	FOREIGN KEY (userID) REFERENCES USER(userID),
+	FOREIGN KEY (classID) REFERENCES CLASS(classID)
+	)"
+	
+	$sqlExercises = "CREATE TABLE `exercise` (
+	exerciseID INT(6) NOT NULL,
+	topic VARCHAR(255) NOT NULL,
+	PRIMARY KEY (exerciseID)
+	)"
+	
+	$sqlAverage = "CREATE TABLE `AVERAGE` (
+	userID INT(6) NOT NULL,
+	topic VARCHAR(255) NOT NULL,
+	average DOUBLE NOT NULL,
+	FOREIGN KEY (userID) REFERENCES USER(userID)
+	PRIMARY KEY (userID, topic)
+	)"
+	
 ?>
 	
