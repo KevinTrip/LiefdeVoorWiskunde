@@ -31,7 +31,7 @@
 	schoolID INT(6) AUTO_INCREMENT,
 	name VARCHAR(255) NOT NULL,
 	PRIMARY KEY (schoolID)
-	)"
+	)";
 	
 	$sqlClass = "CREATE TABLE `CLASS` (
 	classID INT(6)  AUTO_INCREMENT,
@@ -41,9 +41,9 @@
 	PRIMARY KEY (classID),
 	FOREIGN KEY (schoolID) REFERENCES SCHOOL(schoolID),
 	FOREIGN KEY (teacherID) REFERENCES TEACHER(teacherID)
-	)"
+	)";
 	
-	$sqlgrade = "CREATE TABLE `GRADE` (
+	$sqlGrade = "CREATE TABLE `GRADE` (
 	exerciseID INT(6) NOT NULL,
 	userID INT(6)  NOT NULL,
 	classID INT(6) NOT NULL,
@@ -53,13 +53,13 @@
 	FOREIGN KEY (exerciseID) REFERENCES EXERCISE(exerciseID),
 	FOREIGN KEY (userID) REFERENCES USER(userID),
 	FOREIGN KEY (classID) REFERENCES CLASS(classID)
-	)"
+	)";
 	
 	$sqlExercise = "CREATE TABLE `exercise` (
 	exerciseID INT(6) NOT NULL,
 	topic VARCHAR(255) NOT NULL,
 	PRIMARY KEY (exerciseID)
-	)"
+	)";
 	
 	$sqlAverage = "CREATE TABLE `AVERAGE` (
 	userID INT(6) NOT NULL,
@@ -67,42 +67,51 @@
 	average DOUBLE NOT NULL,
 	FOREIGN KEY (userID) REFERENCES USER(userID),
 	PRIMARY KEY (userID, topic)
-	)"
+	)";
 	
 	$servername = "localhost";
 	$password = "";
 	$username = "root";
+	$DBname = "LiefdeVoorWiskunde";
+	//Variables to connect to the database
 	
 	$connect = mysqli_connect($servername, $username, $password);
+	//Variable to connect to the database
 	if($connect === false) {
 		echo "Er is iets misgegaan. Sorry voor het ongemak!";
 	}
 	else {
-		if(mysqli_query($connect, $sqlSchool) === false) {
-			echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+		if(mysqli_select_db($connect, $DBname) === false) {
+			echo "Er is iets  mis gegaan met het selecteren van de database";
 		}
 		else {
-			if(mysqli_query($connect, $sqlExercise) === false) {
+			
+			if(mysqli_query($connect, $sqlSchool) === false) {
 				echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
 			}
 			else {
-				if(mysqli_query($connect, $sqlTeacher) === false) {
-					echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+				if(mysqli_query($connect, $sqlExercise) === false) {
+					echo "Er is iets misgegaan met het maken van de tabel 'EXERCISE'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
 				}
 				else {
-					if(mysqli_query($connect, $sqlClass) === false) {
-						echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+					if(mysqli_query($connect, $sqlTeacher) === false) {
+						echo "Er is iets misgegaan met het maken van de tabel 'TEACHER'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
 					}
 					else {
-						if(mysqli_query($connect, $sqlUser) === false) {
-							echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+						if(mysqli_query($connect, $sqlClass) === false) {
+							echo "Er is iets misgegaan met het maken van de tabel 'CLASS'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
 						}
 						else {
-							if(mysqli_query($connect, $sqlExercise) === false) {
-								echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+							if(mysqli_query($connect, $sqlUser) === false) {
+								echo "Er is iets misgegaan met het maken van de tabel 'USER'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
 							}
 							else {
-								echo "Alle tabellen gemaakt! Toppper ben ik he";
+								if(mysqli_query($connect, $sqlGrade) === false) {
+									echo "Er is iets misgegaan met het maken van de tabel 'GRADE'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+								}
+								else {
+									echo "Alle tabellen gemaakt! Toppper ben ik he";
+								}
 							}
 						}
 					}
