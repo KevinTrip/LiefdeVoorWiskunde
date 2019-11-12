@@ -1,6 +1,4 @@
 <?php
-	
-	echo "Ik ben geconnect goed he";
 	$sqlUser = "CREATE TABLE `USER` (
 	userID INT(6) AUTO_INCREMENT,
 	teacherID INT(6) NOT NULL,
@@ -69,55 +67,38 @@
 	PRIMARY KEY (userID, topic)
 	)";
 	
-	$servername = "localhost";
-	$password = "";
-	$username = "root";
-	$DBname = "LiefdeVoorWiskunde";
-	//Variables to connect to the database
-	
-	$connect = mysqli_connect($servername, $username, $password);
-	//Variable to connect to the database
-	if($connect === false) {
-		echo "Er is iets misgegaan. Sorry voor het ongemak!";
+	if(mysqli_query($connect, $sqlSchool) === false) {
+		echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
 	}
 	else {
-		if(mysqli_select_db($connect, $DBname) === false) {
-			echo "Er is iets  mis gegaan met het selecteren van de database";
+		if(mysqli_query($connect, $sqlExercise) === false) {
+			echo "Er is iets misgegaan met het maken van de tabel 'EXERCISE'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
 		}
 		else {
-			
-			if(mysqli_query($connect, $sqlSchool) === false) {
-				echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+			if(mysqli_query($connect, $sqlTeacher) === false) {
+				echo "Er is iets misgegaan met het maken van de tabel 'TEACHER'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
 			}
 			else {
-				if(mysqli_query($connect, $sqlExercise) === false) {
-					echo "Er is iets misgegaan met het maken van de tabel 'EXERCISE'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+				if(mysqli_query($connect, $sqlClass) === false) {
+					echo "Er is iets misgegaan met het maken van de tabel 'CLASS'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
 				}
 				else {
-					if(mysqli_query($connect, $sqlTeacher) === false) {
-						echo "Er is iets misgegaan met het maken van de tabel 'TEACHER'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+					if(mysqli_query($connect, $sqlUser) === false) {
+						echo "Er is iets misgegaan met het maken van de tabel 'USER'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
 					}
 					else {
-						if(mysqli_query($connect, $sqlClass) === false) {
-							echo "Er is iets misgegaan met het maken van de tabel 'CLASS'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
+						if(mysqli_query($connect, $sqlGrade) === false) {
+							echo "Er is iets misgegaan met het maken van de tabel 'GRADE'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
 						}
 						else {
-							if(mysqli_query($connect, $sqlUser) === false) {
-								echo "Er is iets misgegaan met het maken van de tabel 'USER'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
-							}
-							else {
-								if(mysqli_query($connect, $sqlGrade) === false) {
-									echo "Er is iets misgegaan met het maken van de tabel 'GRADE'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
-								}
-								else {
-									echo "Alle tabellen gemaakt! Toppper ben ik he";
-								}
-							}
+							echo "Alle tabellen gemaakt! Topper ben ik he";
 						}
 					}
 				}
 			}
 		}
 	}
+
+
 ?>
 	

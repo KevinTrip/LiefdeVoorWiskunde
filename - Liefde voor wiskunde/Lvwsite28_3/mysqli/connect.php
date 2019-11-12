@@ -22,15 +22,12 @@
 					echo "Er is iets misgegaan met het verbinden naar de database. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
 				}
 				else {
-					echo "ik zou hier moeten connecten";
 					include("create.php");
 				}
 			}
 		}
 		else {
-			echo "connected succesful to database";
 		}
-		echo "connected succesful";
 	}
 	
 	

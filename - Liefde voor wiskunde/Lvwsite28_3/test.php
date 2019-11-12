@@ -67,18 +67,21 @@
 													</div>
 													<div class="art-postcontent">
 														<!-- article-content -->
-														<p>
-															Wat voor tekst komt hier?
-														</p>
-														<h1>Heading 1</h1>
-														<h2>Heading 2</h2>
-														<h3>Heading 3</h3>
-														<h4>Heading 4</h4>
-														<h5>Heading 5</h5>
-														<h6>Heading 6</h6>
+														<
 														<?php
-			include("mysqli/connect.php")
-		?>
+															include("mysqli/connect.php")
+														?>
+														<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
+															<input type="text" name="username" placeholder="Gebruikersnaam">
+															<input type="text" name="password" placeholder="Wachtwoord">
+															<input type="submit" name="submit">
+														</form>
+														<?php
+															if(isset($_POST['submit'])) {
+																include("includes/login.php")
+															}
+															mysqli_close();
+														?>
 														<p>
 															<span class="art-button-wrapper">
 																<span class="l"> </span>
