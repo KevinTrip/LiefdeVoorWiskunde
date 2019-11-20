@@ -78,7 +78,11 @@
 														</form>
 														<?php
 															if(isset($_POST['submit'])) {
-																include("includes/login.php")
+																if(!empty(htmlentities($_POST["username"]))) {
+																	if(!empty(htmlentities($_POST["password"]))) {
+																		include("includes/login.php");
+																	}
+																}
 															}
 															mysqli_close();
 														?>

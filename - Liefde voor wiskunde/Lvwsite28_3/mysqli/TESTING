@@ -1,0 +1,3 @@
+INSERT INTO `user` (teacherID, classID, username, password, email, firstName, lastName) VALUES ('-1', '-1', 'admin', 'admin', 'admin@administrator.com', 'admin', 'admin')
+INSERT INTO `teacher` (schoolID, username, password, email, firstName, lastName) VALUES ('1', 'DocentPieter', 'DocentPietertje12', 'pieter.achter@nhlstenden.com', 'Pieter', 'Achter')
+INSERT INTO `class` (schoolID, teacherID, name) VALUES ('1', '1', 'VO_LWI_lw1')

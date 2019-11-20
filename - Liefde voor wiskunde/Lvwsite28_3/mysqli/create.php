@@ -67,6 +67,18 @@
 	PRIMARY KEY (userID, topic)
 	)";
 	
+	$sqlAdmin = "INSERT INTO `user` (name)
+	Values ('NHL Stenden')";
+	
+	$sqlTeacher1 = "INSERT INTO `teacher` (schoolID, username, password, email, firstName, lastName) 
+	VALUES ('1', 'DocentPieter', 'DocentPietertje12', 'pieter.achter@nhlstenden.com', 'Pieter', 'Achter')";
+	
+	$sqlClass1 = "INSERT INTO `class` (schoolID, teacherID, name) 
+	VALUES ('1', '1', 'VO_LWI_lw1')";
+	
+	$sqlSchool1 = "INSERT INTO `user` (teacherID, classID, username, password, email, firstName, lastName)
+	Values ('1', '1', 'admin', '"+ password_hash("admin", PASSWORD_DEFAULT) +"', 'admin@administrator.com', 'admin', 'admin')";
+	
 	if(mysqli_query($connect, $sqlSchool) === false) {
 		echo "Er is iets misgegaan met het maken van de tabel 'SCHOOL'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
 	}
@@ -89,9 +101,6 @@
 					else {
 						if(mysqli_query($connect, $sqlGrade) === false) {
 							echo "Er is iets misgegaan met het maken van de tabel 'GRADE'. Vraag de beheerder naar meer informatie. Onze excuses voor het ongemak";
-						}
-						else {
-							echo "Alle tabellen gemaakt! Topper ben ik he";
 						}
 					}
 				}
